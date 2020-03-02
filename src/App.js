@@ -1,10 +1,14 @@
 import React from 'react';
 
+import GlobalStyle from './styles/global';
+import Quotation from './components/Quotation';
+
 function App() {
   return (
-    <div>
-      Text
-    </div>
+    <>
+      <Quotation />
+      <GlobalStyle />
+    </>
   );
 }
 
